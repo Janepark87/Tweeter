@@ -7,7 +7,7 @@
                     <div class="d-flex align-items-center justify-content-between mt-2">
                         <div class="d-flex align-items-center">
                             <a href="/profile/{{ $user->id }}">
-                                <img src="/img/{{ $user->avatar }}" alt="Avatar" class="content_avatar">
+                                <img src="/img/saveImg/{{ $user->avatar }}" alt="Avatar" class="content_avatar">
                             </a>
                             <div class="d-lg-flex">
                                 <span class="font-weight-bold "><a href="{{ route('tweets.show', $user->id) }}" class="text-dark">{{ $user->name }}</a></span>

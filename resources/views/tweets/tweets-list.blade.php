@@ -1,6 +1,6 @@
 <div class="media text-muted pt-3">
     <a href="/profile/{{ $tweet->user->id }}">
-        <img src="/img/{{ $tweet->user->avatar }}" alt="Avatar" class="content_avatar">
+        <img src="/img/saveImg/{{ $tweet->user->avatar }}" alt="Avatar" class="content_avatar">
     </a>
     <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex">

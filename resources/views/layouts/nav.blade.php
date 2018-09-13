@@ -29,7 +29,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle sudonone " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                <img src="/img/{{ Auth::user()->avatar }}" alt="Avatar" class="nav_avatar d-none d-md-block">
+                                <img src="/img/saveImg/{{ Auth::user()->avatar }}" alt="Avatar" class="nav_avatar d-none d-md-block">
                                 <span class="d-block d-md-none" >{{ Auth::user()->name }} <i class="fa fa-caret-down"></i></span>
                             </a>
 

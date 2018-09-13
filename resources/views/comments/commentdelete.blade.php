@@ -28,7 +28,7 @@
 
             <div class="d-flex border p-2 my-3">
                 <span class="h4 text-muted pull-left ">
-                    <img src="/img/{{ $comment->user->avatar }}" alt="Avatar" class="content_avatar">
+                    <img src="/img/saveImg/{{ $comment->user->avatar }}" alt="Avatar" class="content_avatar">
                 </span>
 
                 <div class="media-body pb-3 mb-0 small lh-125">

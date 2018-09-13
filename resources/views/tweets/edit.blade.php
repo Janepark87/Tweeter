@@ -25,7 +25,7 @@
 
             <div class="d-flex border p-2 my-3">
                 <span class="h4 text-muted pull-left ">
-                    <img src="/img/{{ Auth::user()->avatar }}" alt="Avatar" class="content_avatar">
+                    <img src="/img/saveImg/{{ Auth::user()->avatar }}" alt="Avatar" class="content_avatar">
                 </span>
                 <textarea class="border-0 form-control mb-4" type="text" name="body" placeholder="What's happening?">{{ $tweet->body }}</textarea>
             </div>

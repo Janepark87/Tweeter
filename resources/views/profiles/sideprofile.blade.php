@@ -1,7 +1,7 @@
 @if(!Auth::guest())
     <div class="d-none d-md-block my-3 p-3 bg-white rounded box-shadow">
         <div class="row">
-            <img src="/img/{{ Auth::user()->avatar }}" alt="Avatar" class="avatar m-auto">
+            <img src="/img/saveImg/{{ Auth::user()->avatar }}" alt="Avatar" class="avatar m-auto">
         </div>
         <h4 class="text-center">{{ Auth::user()->name }}'s Profile</h4>
         <div class="d-flex justify-content-center">

@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-4 p-5">
                     <div class="d-flex flex-column text-center">
-                        <img src="/img/{{ Auth::user()->avatar }}" alt="Avatar" class="avatar m-auto">
+                        <img src="/img/saveImg/{{ Auth::user()->avatar }}" alt="Avatar" class="avatar m-auto">
                         <small class="d-block text-muted my-3">Upload a different photo..</small>
 
                         <div class="custom-file mt-3">

@@ -3,7 +3,7 @@
 @section('sideInprofile')
     <div class="my-3 p-3 bg-white rounded box-shadow">
         <div class="row">
-            <img src="/img/{{ $user->avatar }}" alt="Avatar" class="avatar m-auto">
+            <img src="/img/saveImg/{{ $user->avatar }}" alt="Avatar" class="avatar m-auto">
         </div>
         <h3 class="text-center">{{  $user->name }}'s Profile</h3>
         <div class="d-flex justify-content-center">

@@ -25,7 +25,7 @@
                 {{ csrf_field() }}
                 <div class="d-flex border p-2 my-3">
                     <span class="h4 text-muted pull-left ">
-                        <img src="/img/{{ Auth::user()->avatar }}" alt="Avatar" class="content_avatar">
+                        <img src="/img/saveImg/{{ Auth::user()->avatar }}" alt="Avatar" class="content_avatar">
                     </span>
 
                     <div class="media-body pb-3 mb-0 small lh-125">

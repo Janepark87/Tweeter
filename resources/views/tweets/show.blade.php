@@ -24,7 +24,7 @@
         </div>
 
         <div class="media text-muted pt-3">
-            <img src="/img/{{ $tweet->user->avatar }}" alt="Avatar" class="content_avatar">
+            <img src="/img/saveImg/{{ $tweet->user->avatar }}" alt="Avatar" class="content_avatar">
 
             <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                 <div class="d-flex">
